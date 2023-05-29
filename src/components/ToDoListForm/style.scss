@@ -1,0 +1,28 @@
+.todo-list-container{
+    .todo-list-container h1{
+        text-align: center;
+    }
+    .todolist-form{
+        text-align: center;
+        margin: 0 auto;
+        width: 250px;
+        .todolist-field{
+            margin-bottom: 18px;
+        }
+    }
+    .todolist-table{
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        table{
+            border: 2px solid forestgreen;
+            width: 800px;
+            height: auto;
+            td{text-align: center;}
+        }
+    }
+}
